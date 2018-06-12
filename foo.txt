@@ -1,0 +1,1 @@
+This is foo.txt not in ignored. So the both filter will run.
