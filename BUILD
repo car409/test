@@ -7,16 +7,19 @@ exports_files(["LICENSE"])
 go_prefix("proctor/production/prober")
 
 go_test(
-    name = "pass",
+    name = "no_filter",
     srcs = ["pass.go"],
 )
 
 go_test(
-    name = "fail",
-    srcs = ["fail.go"],
+    name = "ignore_only",
+    srcs = ["pass.go"],
 )
-
 go_test(
-    name = "broken",
-    srcs = ["broken.go"],
+    name = "include_only",
+    srcs = ["pass.go"],
+)
+go_test(
+    name = "both",
+    srcs = ["pass.go"],
 )

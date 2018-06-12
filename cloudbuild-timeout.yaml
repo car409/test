@@ -1,4 +1,0 @@
-timeout: "10s"
-steps:
-  - name: 'alpine'
-    args: [ 'sleep', '30' ]
