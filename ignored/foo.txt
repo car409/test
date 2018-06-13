@@ -2,3 +2,5 @@ This should be ignored by the ignored filter.
 
 Some ignored change.
 
+More ignored changes
+
