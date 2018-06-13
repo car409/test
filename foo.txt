@@ -3,3 +3,5 @@ This is foo.txt not in ignored. So the both filter will run.
 Now the ignore_filter will run.
 
 Boy will it run for me.
+
+Run again.
