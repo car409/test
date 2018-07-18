@@ -12,6 +12,11 @@ go_test(
 )
 
 go_test(
+    name = "frontend_filter",
+    srcs = ["pass.go"],
+)
+
+go_test(
     name = "ignore_only",
     srcs = ["pass.go"],
 )
