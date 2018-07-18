@@ -7,6 +7,11 @@ exports_files(["LICENSE"])
 go_prefix("proctor/production/prober")
 
 go_test(
+    name = "frontend_staging",
+    srcs = ["pass.go"],
+)
+
+go_test(
     name = "no_filter",
     srcs = ["pass.go"],
 )
