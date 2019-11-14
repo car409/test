@@ -1,3 +1,3 @@
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "hello world2" ]
+  args: [ "echo", "who: $_IC_LOGIN said: $_IC_BODY" ]
